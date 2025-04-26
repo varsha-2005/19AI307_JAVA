@@ -19,8 +19,8 @@ To write a Java program of a class named 'Student' with String variable 'name' a
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: v.sreeja
-RegisterNumber:  212222230169
+Developed by: Varsha G
+RegisterNumber:  212222230166
 */
 ```
 
