@@ -1,56 +1,58 @@
-# Ex.No:1(A) CLASS & OBJECTS
+# Ex.No:2(A)  STATIC METHOD
 
 ## AIM:
-To create a main() for the class named 'Test' to access class 'date' and display in-date of an employee(Time be in format Day:month:year)
+To create a java program for calculate cube of a number using static method.
+
 ## ALGORITHM :
-1.	Start the program.Start
-2.Define a class named date with three data members: day, month, and year.
-3.Create a method inside date class to set the date values (e.g., setDate() or constructor).
-4.Create a method inside date class to display the date in the format Day:Month:Year.
-5.Define a class named Test which contains the main() method.
-6.Inside main() method, create an object of the date class.
-7.Use the object to set and display the in-date of the employee.
-8.	End
+1.  Start : Begin the process of calculating the cube of a number.
+2.	Declare a variable to store input : Declare an integer variable n to hold the number whose cube will be calculated.
+3.	Create a Scanner object : Create a Scanner object (sc) to read the input from the user.
+4.	Read input from the user : Prompt the user to input an integer value. The input value is stored in the variable n.
+5.	Call the cubecal function : Call the function cubecal(n) which computes the cube of the number by performing n * n * n.
+6.	Store the result : Store the result of the cubecal function in an integer variable result.
+7.	Output the result :
+8.	Print the cube of the number using System.out.println("Cube is: " + result);.
+9.	End the program.
+
+
+
 
 ## PROGRAM:
  ```
 /*
-Program to implement a class & objects using Java
-Developed by: Varsha.G
+Program to implement a Static method using Java
+Developed by: Varsha G
 RegisterNumber:  212222230166
 */
 ```
 
 ## Sourcecode.java:
 ```
-public class Test{
-    public static void main(String[] args)
-    {
-         Scanner scanner = new Scanner(System.in);
-        Date in=new Date();
-        int day,month,year;
-        in.day = scanner.nextInt();
-
-        in.month = scanner.nextInt();
+import java.util.*;  
+public class CalculateCube  
+{   
+static void cube()  
+{  
+Scanner sc= new Scanner(System.in); 
+int x= sc.nextInt();  
+int y=x*x*x;
+System.out.println("Cube is: "+y);    
+}  
+public static void main(String args[])  
+{  
  
-        in.year = scanner.nextInt();
-        String hour=String.format("%d",in.day);
-        String min=String.format("%d",in.month);
-        String secs=String.format("%d",in.year);
-        
-        System.out.println(hour+"/"+min+"/"+secs);
-       
-    }
-}
+cube();    
+}  
+}  
 
 ```
 
 
 ## OUTPUT:
 
-![Screenshot 2025-04-26 142842](https://github.com/user-attachments/assets/f0f00131-baa4-4f9a-bb72-9d7c0f8a086a)
+![Screenshot 2025-04-26 152231](https://github.com/user-attachments/assets/af57e7d2-70ca-44b3-a5d4-1a90841453cb)
 
 
 
 ## RESULT:
-Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+Thus the java program for calculate cube of a number using static method has been executed successfully.
