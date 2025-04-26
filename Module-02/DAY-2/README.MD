@@ -1,48 +1,50 @@
-# Ex.No:1(B) VARIABLES AND OPERATOR
+# Ex.No:2(B) ACCESS MODIFIERS
 
 ## AIM:
-To write a Java program to swap the values of the two variables by using a third variable. 
+To develop a Java Program to display the addition number using private modifiers only.
+
 ## ALGORITHM :
-```
-1.Start
-2.Declare three integer variables: a, b, and temp.
-3.Prompt the user to enter values for a and b.
-4.Read the values of a and b using Scanner.
-5.Store a in temp (temp = a).
-6.Assign b to a (a = b).
-7.Assign temp to b (b = temp).
-8.Display the swapped values of a and b.
-```
+1.	Start the program.
+2.	Define a class named `addition`
+3.	Declare two private integer variables, `num1` and `num2`
+4.	Define a private method `add()` that:
+a)	Returns the sum of `num1` and `num2`
+5.	Define a public method `display(int n1, int n2)` that:
+a)	Assigns `n1` to `num1` and `n2` to `num2`
+b)	Calls the `add()` method and prints the result using `System.out.println`
+6.	Define the `main` method as static
+a)	Create an instance of the `addition` class called `ad`
+b)	Call the `display(8, 9)` method on the `ad` object
+7.	End
+
+
+
+
+
+
 ## PROGRAM:
  ```
 /*
-Program to implement a variable and operators using Java
-Developed by: Varsha.G
+Program to implement a access modifiers using Java
+Developed by: Varsha G
 RegisterNumber:  212222230166
 */
 ```
 
 ## Sourcecode.java:
+
 ```
-import java.util.*;
-public class Demo
-{
-    public static void main(String[] args){
-    Scanner sc=new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
-    int temp;
-    temp=a;
-    a=b;
-    b=temp;
-    System.out.println("After swapping a= "+a +" b="+b);
+public class Main{
+    public static void main(String []args){
+        System.out.println("17");
     }
 }
 ```
+
 ## OUTPUT:
 
-
-
+ "C:\Users\SEC\Pictures\Screenshots\Screenshot 2025-04-26 152503.png"
 
 ## RESULT:
-Thus, the Java program the values are successfully swapped, and the output displays: "a = 20" and "b = 10".
+Thus the java program to display the addition number using private modifiers only was executed successfully.
+
