@@ -17,8 +17,8 @@ To write a Java program to swap the values of the two variables by using a third
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: v.sreeja
-RegisterNumber:  212222230169
+Developed by: Varsha.G
+RegisterNumber:  212222230166
 */
 ```
 
